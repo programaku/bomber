@@ -25,5 +25,5 @@ $acak = rand(11111,99999);
 	curl_setopt($ch, CURLOPT_POSTFIELDS, $ar);
 	$asw = curl_exec($ch);
 	curl_close($ch);
-	print $a.$nomer." [Sending]\n";
+	print $a.' - '.$nomer." => [Sending Success]\n";
 }
