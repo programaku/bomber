@@ -1,6 +1,6 @@
 <?php
 echo "COPYRIGHT : invisible TEAM\nconfidential\nMail Bomber to send as many emails 
-as possible to the destination email with the specified amount. Have fun";
+as possible to the destination email with the specified amount. Have fun\n\n";
 echo "Email Target?\nInput : ";
 $nomer = trim(fgets(STDIN));
 
